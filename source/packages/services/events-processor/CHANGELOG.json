@@ -1,0 +1,115 @@
+{
+  "name": "@cdf/events-processor",
+  "entries": [
+    {
+      "version": "3.3.3",
+      "tag": "@cdf/events-processor_v3.3.3",
+      "date": "Tue, 28 Dec 2021 18:37:09 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Addressed github security dependabot alerts"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.3.2",
+      "tag": "@cdf/events-processor_v3.3.2",
+      "date": "Wed, 08 Dec 2021 21:31:23 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "allow users to input eventId"
+          },
+          {
+            "comment": "swagger doc change"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.3.1",
+      "tag": "@cdf/events-processor_v3.3.1",
+      "date": "Tue, 09 Nov 2021 18:18:19 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "allow users to input eventId"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.3.0",
+      "tag": "@cdf/events-processor_v3.3.0",
+      "date": "Tue, 28 Sep 2021 22:04:37 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Replaced references to CDF components being referred to as services to modules to avoid confusion with AWS services."
+          }
+        ],
+        "minor": [
+          {
+            "comment": "1. add API Gateway Event Sources 2.add Events Notification data via apigateway invoke by curl or by IoT Core & Https rule"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cdf/config-inject\" from `^3.0.0` to `^3.0.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.2.1",
+      "tag": "@cdf/events-processor_v3.2.1",
+      "date": "Wed, 11 Aug 2021 01:26:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "opensource related minor changes"
+          },
+          {
+            "comment": "Fix, added KMS encryption to SQS qeues"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.2.0",
+      "tag": "@cdf/events-processor_v3.2.0",
+      "date": "Thu, 29 Jul 2021 00:16:37 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Added missing permission required to remove lambda invoke permission when deleting an iotcore event source."
+          }
+        ],
+        "minor": [
+          {
+            "comment": "adding middleware for express based services to remove path from request url to handle custom domain"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cdf/express-middleware\" from `^2.0.0` to `^2.1.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.1.4",
+      "tag": "@cdf/events-processor_v3.1.4",
+      "date": "Wed, 21 Jul 2021 16:46:57 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "The generated lambda bundle size has been reduced."
+          }
+        ]
+      }
+    }
+  ]
+}

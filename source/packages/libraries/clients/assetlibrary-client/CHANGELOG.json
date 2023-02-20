@@ -1,0 +1,108 @@
+{
+  "name": "@cdf/assetlibrary-client",
+  "entries": [
+    {
+      "version": "4.2.3",
+      "tag": "@cdf/assetlibrary-client_v4.2.3",
+      "date": "Fri, 28 Jan 2022 02:31:34 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "the template model lists an enum parameter, which should be a string[] listing the enum values instead of just a string"
+          },
+          {
+            "comment": "assetlibrary-client now includes facetField param in search request"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.2",
+      "tag": "@cdf/assetlibrary-client_v4.2.2",
+      "date": "Tue, 04 Jan 2022 23:16:00 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "getPolicy lambda invoke should use policyId"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.1",
+      "tag": "@cdf/assetlibrary-client_v4.2.1",
+      "date": "Tue, 28 Dec 2021 18:37:09 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Addressed github security dependabot alerts"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cdf/lambda-invoke\" from `^2.0.1` to `^2.0.2`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.0",
+      "tag": "@cdf/assetlibrary-client_v4.2.0",
+      "date": "Wed, 08 Dec 2021 21:31:23 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "added includeGroups query param to getGroup function calls"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.1.2",
+      "tag": "@cdf/assetlibrary-client_v4.1.2",
+      "date": "Tue, 28 Sep 2021 22:04:37 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Replaced references to CDF components being referred to as services to modules to avoid confusion with AWS services."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cdf/lambda-invoke\" from `^2.0.0` to `^2.0.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.1.1",
+      "tag": "@cdf/assetlibrary-client_v4.1.1",
+      "date": "Wed, 11 Aug 2021 01:26:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "opensource related minor changes"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.1.0",
+      "tag": "@cdf/assetlibrary-client_v4.1.0",
+      "date": "Fri, 23 Jul 2021 16:14:32 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Return the groupPath of new groups at time of creation as a header."
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.0.2",
+      "tag": "@cdf/assetlibrary-client_v4.0.2",
+      "date": "Wed, 21 Jul 2021 16:46:57 GMT",
+      "comments": {}
+    }
+  ]
+}

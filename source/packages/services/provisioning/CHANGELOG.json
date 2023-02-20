@@ -1,0 +1,85 @@
+{
+  "name": "@cdf/provisioning",
+  "entries": [
+    {
+      "version": "4.2.5",
+      "tag": "@cdf/provisioning_v4.2.5",
+      "date": "Fri, 28 Jan 2022 02:31:34 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fixed misnamed configuration properties."
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.4",
+      "tag": "@cdf/provisioning_v4.2.4",
+      "date": "Tue, 25 Jan 2022 19:57:26 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fixes an error-level log message in request handler to correctly show a status code"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.3",
+      "tag": "@cdf/provisioning_v4.2.3",
+      "date": "Tue, 28 Dec 2021 18:37:09 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Addressed github security dependabot alerts"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.2",
+      "tag": "@cdf/provisioning_v4.2.2",
+      "date": "Tue, 28 Sep 2021 22:04:37 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Replaced references to CDF components being referred to as services to modules to avoid confusion with AWS services."
+          },
+          {
+            "comment": "properly handle not found errors in provisioning"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cdf/config-inject\" from `^3.0.0` to `^3.0.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.1",
+      "tag": "@cdf/provisioning_v4.2.1",
+      "date": "Wed, 11 Aug 2021 01:26:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "opensource related minor changes"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.0.1",
+      "tag": "@cdf/request-queue_v4.0.1",
+      "date": "Wed, 21 Jul 2021 16:46:57 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "The generated lambda bundle size has been reduced."
+          }
+        ]
+      }
+    }
+  ]
+}

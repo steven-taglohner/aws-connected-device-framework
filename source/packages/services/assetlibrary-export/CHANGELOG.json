@@ -1,0 +1,105 @@
+{
+  "name": "@cdf/assetlibrary-export",
+  "entries": [
+    {
+      "version": "2.1.0",
+      "tag": "@cdf/assetlibrary-export_v2.1.0",
+      "date": "Fri, 28 Jan 2022 02:31:34 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "fix(assetlibrary-export): implement batch processing of labels"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.5",
+      "tag": "@cdf/assetlibrary-export_v2.0.5",
+      "date": "Tue, 25 Jan 2022 19:57:26 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fixes an error-level log message in request handler to correctly show a status code"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.4",
+      "tag": "@cdf/assetlibrary-export_v2.0.4",
+      "date": "Wed, 29 Dec 2021 20:21:35 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update gremlin library from 3.4.8 to 3.4.12"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.3",
+      "tag": "@cdf/assetlibrary-export_v2.0.3",
+      "date": "Tue, 28 Dec 2021 18:37:09 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Addressed github security dependabot alerts"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.2",
+      "tag": "@cdf/assetlibrary-export_v2.0.2",
+      "date": "Tue, 28 Sep 2021 22:04:37 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Replaced references to CDF components being referred to as services to modules to avoid confusion with AWS services."
+          },
+          {
+            "comment": "added export for state machine ARN"
+          },
+          {
+            "comment": "Await neptune close connection"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cdf/config-inject\" from `^3.0.0` to `^3.0.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.1",
+      "tag": "@cdf/assetlibrary-export_v2.0.1",
+      "date": "Fri, 20 Aug 2021 16:07:58 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix broken type annotation"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.0",
+      "tag": "@cdf/assetlibrary-export_v2.0.0",
+      "date": "Wed, 11 Aug 2021 01:26:49 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "new service added"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "Fixed deployment issue due to inconsistent naming of the service"
+          }
+        ]
+      }
+    }
+  ]
+}

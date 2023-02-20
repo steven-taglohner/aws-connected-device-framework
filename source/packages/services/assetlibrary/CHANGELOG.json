@@ -1,0 +1,225 @@
+{
+  "name": "@cdf/assetlibrary",
+  "entries": [
+    {
+      "version": "5.4.2",
+      "tag": "@cdf/assetlibrary_v5.4.2",
+      "date": "Tue, 25 Jan 2022 19:57:26 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fixes an error-level log message in request handler to correctly show a status code"
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.4.1",
+      "tag": "@cdf/assetlibrary_v5.4.1",
+      "date": "Wed, 05 Jan 2022 18:34:59 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Search query not constructed properly when a traversal search was specified followed by a non-traversal search."
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.4.0",
+      "tag": "@cdf/assetlibrary_v5.4.0",
+      "date": "Wed, 29 Dec 2021 20:21:35 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Support for endsWith and contains search operators (full mode only)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.3.9",
+      "tag": "@cdf/assetlibrary_v5.3.9",
+      "date": "Tue, 28 Dec 2021 18:37:09 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Addressed github security dependabot alerts"
+          },
+          {
+            "comment": "Fixes two issues with Asset Library (full mode) search. First, queries that used both comparison operators and certain other operators returned an error. Second, the optional useDFE side effect introduced in version 5.3.7 did not get correctly applied."
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.3.8",
+      "tag": "@cdf/assetlibrary_v5.3.8",
+      "date": "Wed, 08 Dec 2021 21:31:23 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "_Version update only_"
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.3.7",
+      "tag": "@cdf/assetlibrary_v5.3.7",
+      "date": "Wed, 08 Dec 2021 17:48:56 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "The Asset Library search api was experiencing timeouts when attempting searches with 2 or more search criteria on large databases. Root cause analysis discovered an issue with Neptune itself in where an optimal query execution plan was not being executed. This was fixed with Neptune database engine V1.1.0.0.RC1. As part of planned downtime for maintentance, update your Neptune cluster to the latest DB engine."
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.3.6",
+      "tag": "@cdf/assetlibrary_v5.3.6",
+      "date": "Tue, 09 Nov 2021 18:18:19 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Removed retrieving a groups related groups when all what was needed was to check the existence of a group. Returning related groups is performing poorly where groups are supernodes - they may have hundreds of thousands, or millions, of related devices, but to return related groups the related devices still need to be read then discarded. This improvement of the query that discards the devices is to follow."
+          },
+          {
+            "comment": "bug fix of create bulk group error message"
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.3.5",
+      "tag": "@cdf/assetlibrary_v5.3.5",
+      "date": "Tue, 19 Oct 2021 23:02:07 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Allow selection of neptune DB instance from deployment scripts"
+          },
+          {
+            "comment": "add lowercasting to create group API"
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.3.4",
+      "tag": "@cdf/assetlibrary_v5.3.4",
+      "date": "Wed, 29 Sep 2021 23:23:30 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "remove template from cache after being updated"
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.3.3",
+      "tag": "@cdf/assetlibrary_v5.3.3",
+      "date": "Tue, 28 Sep 2021 22:04:37 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Replaced references to CDF components being referred to as services to modules to avoid confusion with AWS services."
+          },
+          {
+            "comment": "Await neptune close connection"
+          },
+          {
+            "comment": "Fixed errors in swagger docs."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cdf/config-inject\" from `^3.0.0` to `^3.0.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.3.2",
+      "tag": "@cdf/assetlibrary_v5.3.2",
+      "date": "Fri, 20 Aug 2021 16:07:58 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix broken type annotation"
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.3.1",
+      "tag": "@cdf/assetlibrary_v5.3.1",
+      "date": "Wed, 11 Aug 2021 01:26:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "opensource related minor changes"
+          },
+          {
+            "comment": "reverting chnages"
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.3.0",
+      "tag": "@cdf/assetlibrary_v5.3.0",
+      "date": "Thu, 29 Jul 2021 00:16:37 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "adding middleware for express based services to remove path from request url to handle custom domain"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cdf/express-middleware\" from `^2.0.0` to `^2.1.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.2.0",
+      "tag": "@cdf/assetlibrary_v5.2.0",
+      "date": "Fri, 23 Jul 2021 16:14:32 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Return the groupPath of new groups at time of creation as a header."
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.1.0",
+      "tag": "@cdf/assetlibrary_v5.1.0",
+      "date": "Fri, 23 Jul 2021 15:55:06 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "add optional parameter for user to specify neptune backup retention period (default to 15 days)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "5.0.0",
+      "tag": "@cdf/assetlibrary_v5.0.0",
+      "date": "Wed, 21 Jul 2021 16:46:57 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Configured Neptune instance to be encrypted at rest. As this is a backwards incompatible change, the database cluster will need recreating. To aid this, specifying a Neptune snapshot to create a new cluster from has been exposed. In addition, the generated lambda bundle size has been reduced."
+          }
+        ]
+      }
+    }
+  ]
+}
